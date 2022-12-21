@@ -1,78 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Box Model</title>
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-size: 30px;
-        font-family: Fira Code;
-        font-weight: 900;
-      }
-      div {
-        background-image: linear-gradient(
-          to right,
-          #051937,
-          #004d7a,
-          #008793,
-          #00bf72,
-          #a8eb12
-        );
-        color: white;
-        padding: 40px;
-        font-size: inherit;
-        font-family: Fira Code;
-        margin: 20px;
-        box-shadow: 4px 4px 8px #000000;
-      }
-      button {
-        font-size: inherit;
-        font-family: inherit;
-        padding: 15px 32px;
-        background-color: green;
-        display: inline-block;
-        text-align: center;
-        border: none;
-        color: white;
-        border-radius: 3px;
-      }
-      button:hover {
-        background-color: rgb(5, 75, 5);
-      }
-      button:visited {
-        color: #a8eb12;
-      }
-      a {
-        text-decoration: none;
-
-        color: inherit;
-      }
-      .second-container {
-        height: 500px;
-      }
-      h3{
-         font-size: 80px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="contianer">
-      <h3 class="text">About me!</h3>
-      <p>
-        Hi I am Pranaw Kumar, I am a Computer Science and Engineering student(1st year) currently studying in Mangalore. My intersts are in networking, cloud computing, cybersecurity and Devops.
-      </p>
-      <br />
-      <br />
-      <button><a href="https://www.instagram.com/thepranaw">Subscribe</a></button>
-    </div>
-
-    <div class="contianer second-container">
-      <h2></h2>
-    </div>
-  </body>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <h2>Portfolio</h2>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about">
+      <h3>About Me</h3>
+      <p>Write a brief overview of your background and interests here.</p>
+    </section>
+    <section id="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>List your skills and areas of expertise here</li>
+        <li>Include any relevant technologies or frameworks that you are familiar with</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h3>Projects</h3>
+      <ul>
+        <li>
+          <h4>Project 1</h4>
+          <p>Describe your project here</p>
+        </li>
+        <li>
+          <h4>Project 2</h4>
+          <p>Describe your project here</p>
+        </li>
+        <li>
+          <h4>Project 3</h4>
+          <p>Describe your project here</p>
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>You can contact me at:</p>
+      <ul>
+        <li>Email: yourname@example.com</li>
+        <li>Phone: 555-555-1212</li>
+        <li>LinkedIn: linkedin.com/in/your-profile</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright Your Name 2021</p>
+  </footer>
+</body>
 </html>
