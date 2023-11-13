@@ -19,3 +19,8 @@ h1 {
     border: 5px solid black;
     padding: .2em;
   }
+
+  footer{
+    background: #921f1f;
+    color : rgb(209, 6, 6)
+  }
